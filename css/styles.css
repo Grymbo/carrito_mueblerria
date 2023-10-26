@@ -110,10 +110,14 @@ img {
     justify-content: space-between;
 }
 .producto__precio {
-    font-size: 4rem;
+    font-size: 2.5rem;
     color: green;
     font-weight: 900;
     margin: 0;
+}
+.producto__precio--oferta {
+    color: var(--naranja);
+    text-decoration: line-through;
 }
 .producto__boton {
     all: unset;
